@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+    display: block;
+  }
+
+@layer components {
+    .menu {
+        @apply fixed top-0 left-0 w-full h-full bg-white z-30 ;
+      }
+
+      .toggleMenu {
+        @apply absolute block lg:hidden mx-auto left-0 right-0  backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20  ;
+      }
+      
+
+
+}
