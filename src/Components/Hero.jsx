@@ -5,10 +5,10 @@ const Hero = () => {
     <section className='px-3 py-4 lg:px-10 lg:py-6 flex flex-col lg:flex-row items-center justify-between gap-10'>
       {/* hero content  */}
       <div className='hero-content w-full flex flex-col items-start gap-8'>
-        <h1 className='text-[2.65rem] lg:text-[3rem] xl:text-[3.88rem] mt-3 text-darkblue capitalize font-semibold leading-none'>
+        <h1 className='text-[2.65rem] lg:text-[3rem] xl:text-[3.88rem] mt-3 text-darkblue capitalize font-semibold leading-none text- lg:text-start'>
           Get ready for your best ever Dental Experience!
         </h1>
-        <p className='text-lg text-black'>
+        <p className='text-lg text-black text-center lg:text-start'>
           We use only the best quality materials on the market in order to
           provide the best products to our patients, So don’t worry about
           anything and book yourself.
