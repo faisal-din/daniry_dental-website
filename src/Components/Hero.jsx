@@ -16,10 +16,10 @@ const Hero = () => {
 
         {/* CTA */}
         <div className='flex flex-col-reverse sm:flex-row  items-center gap-5 '>
-          <button className='w-full block px-7 py-3 rounded-xl bg-midblue text-white text-base font-semibold '>
+          <button className=' px-7 py-3 rounded-xl bg-midblue text-white text-base font-semibold '>
             Book an Appointment
           </button>
-          <div className='w-full flex items-center gap-4'>
+          <div className=' flex items-center gap-4'>
             <div className='bg-lightblue border border-midblue p-3 rounded-xl'>
               <img src={phone} alt='' className='w-5 h-5 cursor-pointer' />
             </div>
@@ -34,7 +34,7 @@ const Hero = () => {
 
         {/* profile  */}
 
-        <div className='w-full sm:w-2/3 bg-white flex flex-col gap-4 px-4 py-3 mt-4 rounded-2xl shadow-lg'>
+        <div className='w-full sm:w-1/2 bg-white flex flex-col gap-4 px-4 py-3 mt-4 rounded-2xl shadow-lg'>
           <div className='flex items-center gap-2'>
             <img
               src={avatar}

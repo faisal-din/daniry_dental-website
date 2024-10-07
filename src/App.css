@@ -8,3 +8,7 @@
     font-family: 'General Sans', sans-serif;
     text-decoration: none;
   }
+
+  .specialist{
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  }

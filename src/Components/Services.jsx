@@ -1,4 +1,4 @@
-import { arrow_right, implant, smile, teeth_icon } from '../assets/constants';
+import { arrow_right, service1, service2, service3 } from '../assets/constants';
 
 const Services = () => {
   return (
@@ -7,7 +7,7 @@ const Services = () => {
         {/* service 1 */}
         <div className='px-9 py-5 flex flex-col items-center gap-4 bg-white rounded-2xl'>
           <div className='bg-skyblue w-[4.375rem] h-[4.375rem] flex justify-center items-center rounded-full '>
-            <img src={teeth_icon} alt='' className='w-12 h-12 object-cover ' />
+            <img src={service1} alt='' className='w-12 h-12 object-cover ' />
           </div>
           <h4 className='text-2xl text-darkblue font-medium'>
             Root Canal Treatment
@@ -29,7 +29,7 @@ const Services = () => {
         {/* service 2 */}
         <div className='px-9 py-5 flex flex-col items-center gap-4 bg-white rounded-2xl'>
           <div className='bg-skyblue w-[4.375rem] h-[4.375rem] flex justify-center items-center rounded-full '>
-            <img src={smile} alt='' className='w-12 h-12 object-cover ' />
+            <img src={service2} alt='' className='w-12 h-12 object-cover ' />
           </div>
           <h4 className='text-2xl text-darkblue font-medium'>
             Cosmetic Dentist
@@ -51,7 +51,7 @@ const Services = () => {
         {/* service 3 */}
         <div className='px-9 py-5 hidden lg:flex flex-col items-center gap-4 bg-white rounded-2xl'>
           <div className='bg-skyblue w-[4.375rem] h-[4.375rem] flex justify-center items-center rounded-full '>
-            <img src={implant} alt='' className='w-12 h-12 object-cover ' />
+            <img src={service3} alt='' className='w-12 h-12 object-cover ' />
           </div>
           <h4 className='text-2xl text-darkblue font-medium'>
             Dental Implants

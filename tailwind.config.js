@@ -19,8 +19,6 @@ export default {
         success: ' #17BF28',
         warning: ' #EC942C',
         error: ' #E52323',
-       
-   
       },
     },
   },

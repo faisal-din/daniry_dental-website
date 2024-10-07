@@ -6,6 +6,7 @@ a.active hr {
     display: block;
   }
 
+
 @layer components {
     .menu {
         @apply fixed top-0 left-0 w-full h-full bg-white z-30 ;

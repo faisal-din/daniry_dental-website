@@ -1,4 +1,4 @@
-import { new_patient, shield } from '../assets/constants';
+import { doctor_img, shield } from '../assets/constants';
 
 const AppointmentSection = () => {
   return (
@@ -7,9 +7,9 @@ const AppointmentSection = () => {
         {/* left side */}
         <div>
           <img
-            src={new_patient}
+            src={doctor_img}
             alt='new-patients'
-            className=' w-[414px] h-full z-50  object-cover rounded-2xl'
+            className=' w-[414px] h-[444px] z-50  object-cover rounded-2xl'
           />
         </div>
 
