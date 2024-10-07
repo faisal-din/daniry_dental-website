@@ -25,6 +25,12 @@ import specialist5 from '../assets/images/specialist5.png';
 
 import LinkedIn from '../assets/icons/LinkedIn.png';
 import waves from '../assets/images/waves.png';
+import star from '../assets/icons/star.png';
+
+import avatar1 from '../assets/images/avatar1.png';
+import avatar2 from '../assets/images/avatar2.png';
+import avatar3 from '../assets/images/avatar3.png';
+import avatar4 from '../assets/images/avatar4.png';
 
 
 
@@ -53,9 +59,15 @@ export {
     specialist3,
     specialist4,
     specialist5,
+
+    avatar1,
+    avatar2,
+    avatar3,
+    avatar4,
     
     LinkedIn,
     waves,
+    star,
 }
 
 export const services = [
@@ -161,23 +173,25 @@ export const testimonials = [
         id: 1,
         name: 'Thomas daniel',
         review: 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
-        img: 'avatar',
+        img: avatar1,
     },
     {
         id: 2,
         name: 'Alena Alex',
         review: 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
-        img: 'avatar',
+        img: avatar2,
     },
     {
         id: 3,
         name: 'Thomas Edison',
         review: 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        img: avatar3,
     },
     {
         id: 4,
-        name: 'Thomas daniel',
+        name: 'Alex Hales',
         review: 'Phosfluorescently synergize covalent outsourcing through functional strategic theme areas. Assertively scale strategic portals without distinctive relationships. Holisticly cultivate tactical e-services before fully researched sources.',
+        img: avatar4,
     }
 ]
    
