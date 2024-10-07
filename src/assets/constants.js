@@ -10,6 +10,7 @@ import teeth_icon from '../assets/icons/teeth-icon.png';
 import implant from '../assets/icons/implant.png';
 import smile from '../assets/icons/smile.png';
 import new_patient from '../assets/images/child.png';
+import shield from '../assets/icons/shield.png';
 
 
 
@@ -28,6 +29,6 @@ export {
     arrow_right,
     implant,
     smile,
-    new_patient
-
+    new_patient,
+    shield,
 }

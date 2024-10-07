@@ -18,7 +18,7 @@ const NewPatients = () => {
             <input
               type='text'
               placeholder='Enter your Phone Number'
-              className='w-full px-3 py-3 rounded-l-2xl border border-[#CFCFCF] focus:outline-none focus:border-midblue'
+              className='w-full px-3 py-3 text-[#CFCFCF] text-base rounded-l-2xl border border-[#CFCFCF] focus:outline-none focus:border-midblue'
             />
             <button className=' block px-7 py-3 rounded-r-2xl border border-midblue  bg-midblue text-white text-base font-semibold '>
               Submit
@@ -27,11 +27,11 @@ const NewPatients = () => {
         </div>
 
         {/* Right Side */}
-        <div className='relative w-[450px] h-[400px] p-3 '>
+        <div className='relative w-full sm:w-[450px] h-[400px]  '>
           <img
             src={new_patient}
             alt='new-patients'
-            className='absolute bottom-0 w-full sm:w-[413px] h-[362px] z-50  object-cover rounded-2xl'
+            className='absolute bottom-0 w-[413px] h-[362px] z-50  object-cover rounded-2xl'
           />
 
           <div className='hidden sm:block absolute top-0 right-0 w-[413px]  h-[362px] bg-gradient-to-bl from-skyblue to-transparent  rounded-2xl'></div>

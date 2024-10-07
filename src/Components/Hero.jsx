@@ -17,7 +17,7 @@ const Hero = () => {
         {/* CTA */}
         <div className='flex flex-col-reverse sm:flex-row  items-center gap-5 '>
           <button className='w-full block px-7 py-3 rounded-xl bg-midblue text-white text-base font-semibold '>
-            Book Appointment
+            Book an Appointment
           </button>
           <div className='w-full flex items-center gap-4'>
             <div className='bg-lightblue border border-midblue p-3 rounded-xl'>
