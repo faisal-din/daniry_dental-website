@@ -28,6 +28,7 @@ import waves from '../assets/images/waves.png';
 import star from '../assets/icons/star.png';
 import minus from '../assets/icons/minus-solid.svg';
 import plus from '../assets/icons/plus-solid.svg';
+import cta from '../assets/images/cta.png';
 
 
 import avatar1 from '../assets/images/avatar1.png';
@@ -90,6 +91,7 @@ export {
     star,
     minus,
     plus,
+    cta,
 }
 
 export const services = [
