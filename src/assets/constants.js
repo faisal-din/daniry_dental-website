@@ -45,6 +45,12 @@ import article6 from '../assets/images/article6.png';
 import article7 from '../assets/images/article7.png';
 import article8 from '../assets/images/article8.png';
 
+import facebook from '../assets/icons/facebook.png';
+import instagram from '../assets/icons/instagram.png';
+import youtube from '../assets/icons/youtube.png';
+import twitter from '../assets/icons/twitter.png';
+
+
 
 
 export {
@@ -86,12 +92,17 @@ export {
     article7,
     article8,
     
-    LinkedIn,
     waves,
     star,
     minus,
     plus,
     cta,
+    
+    facebook,
+    instagram,
+    youtube,
+    LinkedIn,
+    twitter
 }
 
 export const services = [

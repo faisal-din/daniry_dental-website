@@ -2,8 +2,8 @@ import { cta } from '../assets/constants';
 
 const CTASection = () => {
   return (
-    <section className=' lg:px-28 lg:py-6'>
-      <div className='bg-darkblue rounded-xl flex items-center gap-16 p-12'>
+    <section className='mt-10 lg:px-28 lg:py-6'>
+      <div className='bg-darkblue sm:rounded-xl flex flex-col sm:flex-row  items-center gap-10 lg:gap-16 p-8 lg:p-12'>
         <div className='flex flex-col items-start gap-12'>
           <div>
             <h2 className='text-[2rem] sm:text-[2.25rem] xl:text-[2.65rem] text-white font-semibold capitalize'>
