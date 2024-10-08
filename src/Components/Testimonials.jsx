@@ -1,4 +1,4 @@
-import { avatar1, star, testimonials } from '../assets/constants';
+import { star, testimonials } from '../assets/constants';
 
 const Testimonials = () => {
   return (

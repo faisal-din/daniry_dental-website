@@ -32,6 +32,14 @@ import avatar2 from '../assets/images/avatar2.png';
 import avatar3 from '../assets/images/avatar3.png';
 import avatar4 from '../assets/images/avatar4.png';
 
+import article1 from '../assets/images/article1.png';
+import article2 from '../assets/images/article2.png';
+import article3 from '../assets/images/article3.png';
+import article4 from '../assets/images/article4.png';
+import article5 from '../assets/images/article5.png';
+import article6 from '../assets/images/article6.png';
+import article7 from '../assets/images/article7.png';
+import article8 from '../assets/images/article8.png';
 
 
 
@@ -64,6 +72,15 @@ export {
     avatar2,
     avatar3,
     avatar4,
+
+    article1,
+    article2,
+    article3,
+    article4,
+    article5,
+    article6,
+    article7,
+    article8,
     
     LinkedIn,
     waves,
@@ -194,5 +211,104 @@ export const testimonials = [
         img: avatar4,
     }
 ]
+
+
+export const articlesInfo = [
+    {
+      id: 1,
+      title: "Care of your Teeth",
+      description: "Learn the best practices to keep your teeth clean and healthy.",
+      tag: "Self Care",
+      author: "Dr. Anita Jackson",
+      image: article1, 
+    },
+    {
+      id: 2,
+      title: "Understanding X-rays",
+      description: "A deep dive into dental X-rays and their importance for diagnosis.",
+      tag: "Dental Care",
+      author: "Dr. John Doe",
+      image: article2, 
+    },
+    {
+      id: 3,
+      title: "Benefits of Regular Checkups",
+      description: "Why scheduling regular dental visits is crucial for oral health.",
+      tag: "Prevention",
+      author: "Dr. Sarah Lee",
+      image: article3, 
+    },
+    {
+      id: 4,
+      title: "The Perfect Dental Routine",
+      description: "A step-by-step guide to crafting your daily dental care routine.",
+      tag: "Routine",
+      author: "Dr. Emily Brown",
+      image: article4, 
+    },
+    {
+      id: 5,
+      title: "Caring for Your Braces",
+      description: "Tips on how to properly clean and maintain braces.",
+      tag: "Orthodontics",
+      author: "Dr. Alex Martin",
+      image: article5, 
+    },
+    {
+      id: 6,
+      title: "How to Prevent Cavities",
+      description: "Best practices to avoid cavities and maintain a healthy smile.",
+      tag: "Prevention",
+      author: "Dr. Laura White",
+      image: article6, 
+    },
+    {
+      id: 7,
+      title: "Choosing the Right Toothbrush",
+      description: "Find out which type of toothbrush suits your needs.",
+      tag: "Self Care",
+      author: "Dr. Michael Green",
+      image: article7, 
+    },
+    {
+      id: 8,
+      title: "Top Foods for Healthy Teeth",
+      description: "Discover the best foods to boost your dental health.",
+      tag: "Nutrition",
+      author: "Dr. Olivia Thompson",
+      image: article8, 
+    }
+  ];
+
+
+
+export  const faqs = [
+    {
+      question: "What services do you offer?",
+      answer: "We offer a range of dental services including general checkups, orthodontics, and cosmetic dentistry."
+    },
+    {
+      question: "How often should I visit the dentist?",
+      answer: "It is recommended to visit your dentist every 6 months for a regular checkup and cleaning."
+    },
+    {
+      question: "Do you accept insurance?",
+      answer: "Yes, we accept most insurance plans. Please contact us to verify your insurance provider."
+    },
+    {
+      question: "What should I do in a dental emergency?",
+      answer: "In case of a dental emergency, please contact us immediately. We offer emergency services during working hours."
+    },
+    {
+      question: "How can I improve my dental hygiene?",
+      answer: "Brushing twice a day, flossing, and regular checkups are essential for maintaining good dental hygiene."
+    },
+    {
+      question: "Do you offer cosmetic dentistry?",
+      answer: "Yes, we offer a variety of cosmetic dentistry services, including teeth whitening, veneers, and more."
+    }
+  ];
+
+  
    
 
