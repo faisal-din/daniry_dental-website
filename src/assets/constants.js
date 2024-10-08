@@ -26,6 +26,9 @@ import specialist5 from '../assets/images/specialist5.png';
 import LinkedIn from '../assets/icons/LinkedIn.png';
 import waves from '../assets/images/waves.png';
 import star from '../assets/icons/star.png';
+import minus from '../assets/icons/minus-solid.svg';
+import plus from '../assets/icons/plus-solid.svg';
+
 
 import avatar1 from '../assets/images/avatar1.png';
 import avatar2 from '../assets/images/avatar2.png';
@@ -85,6 +88,8 @@ export {
     LinkedIn,
     waves,
     star,
+    minus,
+    plus,
 }
 
 export const services = [
@@ -284,26 +289,32 @@ export const articlesInfo = [
 
 export  const faqs = [
     {
+    id: 1,
       question: "What services do you offer?",
       answer: "We offer a range of dental services including general checkups, orthodontics, and cosmetic dentistry."
     },
     {
+        id: 2,
       question: "How often should I visit the dentist?",
       answer: "It is recommended to visit your dentist every 6 months for a regular checkup and cleaning."
     },
     {
+        id: 3,
       question: "Do you accept insurance?",
       answer: "Yes, we accept most insurance plans. Please contact us to verify your insurance provider."
     },
     {
+        id: 4,
       question: "What should I do in a dental emergency?",
       answer: "In case of a dental emergency, please contact us immediately. We offer emergency services during working hours."
     },
     {
+       id: 5, 
       question: "How can I improve my dental hygiene?",
       answer: "Brushing twice a day, flossing, and regular checkups are essential for maintaining good dental hygiene."
     },
     {
+        id: 6,
       question: "Do you offer cosmetic dentistry?",
       answer: "Yes, we offer a variety of cosmetic dentistry services, including teeth whitening, veneers, and more."
     }
